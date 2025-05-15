@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Portfólio Adriely</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/portfolio/styles/style.css" />
+    <link rel="icon" type="image/png" href="/portfolio/public/favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h2>< Adriely /></h2>
+        <div>
+          <ul>
+            <li class="underline-animate"><a href="#sobre" data-i18n="header.about"></a></li>
+            <li class="underline-animate">
+              <a href="#competencias" data-i18n="header.skills"></a>
+            </li>
+            <li class="underline-animate"><a href="#projetos" data-i18n="header.projects"></a></li>
+          </ul>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="https://wa.me/5544999047512" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Adrilopes" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/adriely-lopes/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+
+          <div class="language-links">
+            <a href="#" class="lang-btn active" data-lang="pt">PT</a> |
+            <a href="#" class="lang-btn" data-lang="en">EN</a> |
+            <a href="#" class="lang-btn" data-lang="es">ES</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="about" id="sobre">
+        <div class="about2">
+          <ul>
+            <li>
+              <h1>Hello World!</h1>
+            </li>
+            <li>
+              <h2>I'm <span class="gradient-text">Adriely Lopes,</span></h2>
+            </li>
+            <li>
+              <p data-i18n="intro.description"></p>
+            </li>
+          </ul>
+
+          <a href="/portfolio/public/cv/cv-en.pdf" target="_blank">
+            <button class="button-curriculo">
+              <i class="fa-solid fa-download"></i>
+              <span data-i18n="curriculo"></span>
+            </button>
+          </a>
+        </div>
+        <div class="avatar">
+          <img src="/portfolio/public/images/avatar.jpeg" alt="adriely-lopes" />
+        </div>
+      </section>
+      <section class="skills" id="competencias">
+        <h1 data-i18n-html="skills.title"></h1>
+        <div class="cards">
+          <div class="card">
+            <i class="fa-solid fa-display"></i>
+            <h2>Front-End</h2>
+            <p data-i18n-html="skills.frontend"></p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h2>Back-End</h2>
+            <p data-i18n-html="skills.backend"></p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-chart-simple"></i>
+            <h2 data-i18n="agile.title-agile"></h2>
+            <p data-i18n-html="agile.text"></p>
+          </div>
+        </div>
+        <div class="icons-skills">
+          <ul>
+            <li>
+              <img
+                src="https://img.icons8.com/color/90/html-5--v1.png"
+                alt="HTML5"
+              />
+            </li>
+            <li>
+              <img src="https://img.icons8.com/color/90/css3.png" alt="CSS3" />
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/color/90/javascript--v1.png"
+                alt="JavaScript"
+              />
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/color/90/nodejs.png"
+                alt="Node.js"
+              />
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/color/90/react-native.png"
+                alt="React"
+              />
+            </li>
+            <li>
+              <img src="https://img.icons8.com/color/90/git.png" alt="Git" />
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/ios-glyphs/90/github.png"
+                alt="GitHub"
+              />
+            </li>
+
+            <li>
+              <img
+                src="https://img.icons8.com/color/90/postgreesql.png"
+                alt="PostgreSQL"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="projects">
+        <h1 id="projetos" data-i18n="projects.title-projects"></h1>
+        <div class="carousel">
+          <div class="card-carousel">
+            <img src="/portfolio/public/images/api-project.png" alt="" />
+            <h3>Nasa Apod Viewer</h3>
+            <p data-i18n="projects.nasa-project"></p>
+            <a
+              class="button-repo"
+              href="https://github.com/Adrilopes/NasaApodViewer"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github"></i> GitHub Repo
+            </a>
+          </div>
+          <div class="card-carousel">
+            <img src="/portfolio/public/images/CRUD-project.png" alt="" />
+            <h3>Book Notes – CRUD Application</h3>
+            <p data-i18n="projects.book-notes"></p>
+            <a
+              class="button-repo"
+              href="https://github.com/Adrilopes/BookNotes-CRUD_Application"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github"></i> GitHub Repo
+            </a>
+          </div>
+          <div class="card-carousel">
+            <img src="/portfolio/public/images/REACT-project.png" alt="" />
+            <h3>React Spotify Clone</h3>
+            <p data-i18n="projects.spotfy-react"></p>
+            <a
+              class="button-repo"
+              href="https://github.com/Adrilopes/Spotify-frontend-react"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github"></i> GitHub Repo
+            </a>
+          </div>
+          <div class="card-carousel">
+            <img src="/portfolio/public/images/Portfolio.png" alt="" />
+            <h3 data-i18n="projects.title-portfolio"></h3>
+            <p data-i18n="projects.portfolio"></p>
+            </p>
+            <a class="button-repo" href="" target="_blank">
+              <i class="fa-brands fa-github"></i> GitHub Repo
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div>
+          <img src="" alt="" />
+        </div>
+        <div></div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 Adriely Lopes</p>
+      <div>
+        <a href="https://wa.me/5544999047512" target="_blank"
+          ><i class="fa-brands fa-whatsapp fa-2x"></i
+        ></a>
+        <a href="https://github.com/Adrilopes" target="_blank"
+          ><i class="fa-brands fa-github fa-2x"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/adriely-lopes/" target="_blank"
+          ><i class="fa-brands fa-linkedin fa-2x"></i
+        ></a>
+      </div>
+    </footer>
+
+    <button id="buttonTopo" title="Voltar ao topo">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="https://unpkg.com/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
+<script src="https://unpkg.com/jquery-i18next@1.2.1/dist/umd/jquery-i18next.min.js"></script>
+<script src="https://unpkg.com/i18next-http-backend@2.2.1/i18nextHttpBackend.min.js"></script>
+
+    <script src="/portfolio/scripts/LanguageSwitcher.js"></script>
+    <script src="/portfolio/scripts/button.js"></script>
+  </body>
+</html>

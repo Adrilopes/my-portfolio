@@ -1,0 +1,28 @@
+{
+  "intro": {
+    "description": "Professional with a solid track record in the administrative area, with a strong interest in the world of technology. I am in a career transition and currently work as a Full Stack developer, always seeking to improve my skills. I have practical training through an intensive bootcamp on Udemy, in addition to other specialized development courses. Seeking opportunities to grow in the field and contribute with creative and efficient solutions."
+  },
+  "header": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "curriculo": "VIEW RESUME",
+  "skills": {
+    "title": "My Skills",
+    "frontend": "I develop interactive web applications using <span class='gradient-text-hover'>JavaScript</span> and <span class='gradient-text-hover'>React</span>, structuring content with <span class='gradient-text-hover'>HTML5</span> and styling with <span class='gradient-text-hover'>CSS3</span>. I am familiar with tools like <span class='gradient-text-hover'>Flexbox</span>, <span class='gradient-text-hover'>Grid</span>, and <span class='gradient-text-hover'>Bootstrap</span> to create responsive and intuitive interfaces.",
+    "backend": "I have academic experience in back-end development using <span class='gradient-text-hover'>Node.js</span> and <span class='gradient-text-hover'>Express.js</span>, as well as working with relational databases like <span class='gradient-text-hover'>PostgreSQL</span> and exploring <span class='gradient-text-hover'>Motoko</span> concepts in projects focused on decentralized technology. I integrate with <span class='gradient-text-hover'>APIs</span> and manipulate data using JavaScript and <span class='gradient-text-hover'>EJS</span>."
+  },
+  "agile": {
+    "title-agile": "Agile Methodologies",
+    "text": "I am in a continuous learning process in web development. Currently, I use <span class=\"gradient-text-hover\">Git</span> and <span class=\"gradient-text-hover\">GitHub</span> for code versioning and to track my learning progress."
+  },
+  "projects": {
+    "title-projects": "PROJECTS",
+    "nasa-project": "This project was developed to apply my knowledge in integrating external APIs, using Node.js and Express to fetch and display dynamic NASA data in a structured and scalable way.",
+    "book-notes": "Project developed to apply my knowledge in Full Stack applications, integrating a public API and performing CRUD operations using Node.js, Express, and PostgreSQL.",
+    "spotfy-react": "Project developed to apply my initial knowledge in React, recreating the Spotify interface with CSS styling and dynamic search integration.",
+    "title-portfolio": "Portfolio",
+    "portfolio": "I created this trilingual portfolio using JavaScript to showcase my projects, demonstrate my technical skills, and provide a light, clear, and interactive browsing experience for those who want to explore my work."
+  }
+}

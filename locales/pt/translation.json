@@ -1,0 +1,28 @@
+{
+  "intro": {
+    "description": "Profissional com trajetória consolidada na área administrativa, com grande interesse pelo universo da tecnologia. Estou em transição de carreira e atualmente atuo como desenvolvedora Full Stack, sempre em busca de aprimorar minhas habilidades. Tenho formação prática por meio de um bootcamp intensivo na Udemy, além de outros cursos especializados em desenvolvimento. Buscando oportunidades para crescer na área e contribuir com soluções criativas e eficientes."
+  },
+  "header": {
+    "about": "Sobre",
+    "skills": "Competências",
+    "projects": "Projetos"
+  },
+  "curriculo": "VER CURRÍCULO",
+  "skills": {
+    "title": "HABILIDADES <span class='gradient-text'>GERAIS</span>",
+    "frontend": "Desenvolvo aplicações web interativas utilizando <span class='gradient-text-hover'>JavaScript</span> e <span class='gradient-text-hover'>React</span>, estruturando o conteúdo com <span class='gradient-text-hover'>HTML5</span> e estilizando com <span class='gradient-text-hover'>CSS3</span>, tenho familiaridade com recursos como <span class='gradient-text-hover'>Flexbox</span>, <span class='gradient-text-hover'>Grid</span> e <span class='gradient-text-hover'>Bootstrap</span> para criação de interfaces responsivas e intuitivas, seguindo boas práticas de desenvolvimento frontend.",
+    "backend": "Possuo experiência acadêmica com desenvolvimento back-end utilizando <span class='gradient-text-hover'>Node.js</span> e <span class='gradient-text-hover'>Express.js</span>, além de trabalhar com bancos de dados relacionais como <span class='gradient-text-hover'>PostgreSQL</span> e explorar conceitos de <span class='gradient-text-hover'>Motoko</span> em projetos com foco em tecnologia descentralizada. Realizo integração com <span class='gradient-text-hover'>APIs</span> e manipulação de dados utilizando JavaScript e <span class='gradient-text-hover'>EJS</span>."
+  },
+  "agile": {
+    "title-agile": "Metodologias Ágeis",
+    "text": "Estou em processo contínuo de aprendizado em desenvolvimento web. Atualmente, utilizo o <span class=\"gradient-text-hover\">Git</span> e o <span class=\"gradient-text-hover\">GitHub</span> para versionamento de código e acompanhamento da minha evolução nos estudos."
+  },
+  "projects": {
+    "title-projects": "PROJETOS",
+    "nasa-project": "Este projeto foi desenvolvido para aplicar meus conhecimentos em integração com APIs externas, utilizando Node.js e Express para consumir e exibir dados dinâmicos da NASA de forma estruturada e escalável.",
+    "book-notes": "Projeto desenvolvido para aplicar meus conhecimentos em aplicações Full Stack, com integração de API pública e operações CRUD usando Node.js, Express e PostgreSQL.",
+    "spotfy-react": "Projeto desenvolvido para aplicar meus conhecimentos iniciais em React, recriando a interface do Spotify com estilização em CSS e integração de busca dinâmica.",
+    "title-portfolio": "Portfólio",
+    "portfolio": "Criei este portfólio trilíngue utilizando JavaScript para reunir meus projetos, demonstrar meus conhecimentos técnicos e oferecer uma experiência de navegação leve, clara e interativa para quem quiser conhecer meu trabalho."
+  }
+}
