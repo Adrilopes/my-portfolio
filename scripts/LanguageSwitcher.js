@@ -4,7 +4,7 @@ i18next
     lng: 'pt', 
     debug: true,
     backend: {
-      loadPath: '/portfolio/locales/{{lng}}/translation.json'
+      loadPath: '/locales/{{lng}}/translation.json'
     },
     interpolation: {
       escapeValue: false
@@ -43,16 +43,16 @@ function updateCurriculumLink(lang) {
 
   switch (lang) {
     case 'pt':
-      pdfPath = '/portfolio/public/cv/cv-pt.pdf';
+      pdfPath = '/public/cv/cv-pt.pdf';
       break;
     case 'en':
-      pdfPath = '/portfolio/public/cv/cv-en.pdf';
+      pdfPath = '/public/cv/cv-en.pdf';
       break;
     case 'es':
-      pdfPath = '/portfolio/public/cv/cv-en.pdf';
+      pdfPath = '/public/cv/cv-en.pdf';
       break;
     default:
-      pdfPath = '/portfolio/public/cv/cv-pt.pdf'; 
+      pdfPath = '/public/cv/cv-pt.pdf'; 
   }
 
   if (curriculumLink.length > 0) {
