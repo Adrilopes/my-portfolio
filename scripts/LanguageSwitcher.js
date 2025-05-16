@@ -43,16 +43,16 @@ function updateCurriculumLink(lang) {
 
   switch (lang) {
     case 'pt':
-      pdfPath = '/public/cv/cv-pt.pdf';
+      pdfPath = './cv/cv-pt.pdf';
       break;
     case 'en':
-      pdfPath = '/public/cv/cv-en.pdf';
+      pdfPath = './cv/cv-en.pdf';
       break;
     case 'es':
-      pdfPath = '/public/cv/cv-en.pdf';
+      pdfPath = './cv/cv-en.pdf';
       break;
     default:
-      pdfPath = '/public/cv/cv-pt.pdf'; 
+      pdfPath = './cv/cv-pt.pdf'; 
   }
 
   if (curriculumLink.length > 0) {
