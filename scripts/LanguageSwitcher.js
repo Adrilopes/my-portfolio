@@ -4,7 +4,7 @@ i18next
     lng: 'pt', 
     debug: true,
     backend: {
-      loadPath: 'locales/{{lng}}/translation.json'
+      loadPath: './locales/{{lng}}/translation.json'
     },
     interpolation: {
       escapeValue: false
